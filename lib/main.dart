@@ -49,9 +49,9 @@ void main() async {
       debugShowCheckedModeBanner: false,
       initialRoute:homePageRoute,
       routes: {
-        homePageRoute:(con)=>VideoApp(),
-         samplePageRoute:(con)=>SampleDetailsPage(),
-         searchPageRoute:(con)=>SearchPage(),
+        homePageRoute:(con)=>HomePage(),
+        samplePageRoute:(con)=>SampleDetailsPage(),
+        searchPageRoute:(con)=>SearchPage(),
         updatePageRoute:(con)=>UpdateSampleView()
       },
     ));
